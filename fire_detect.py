@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import torch
 from mss import mss
 from ultralytics import YOLO
 import time
@@ -83,10 +84,13 @@ def detect_fire_and_smoke(model, frame):
 
 
 def main():
-    model_path="FIRE.v1i.yolov8-obb/YOLOv8-Fire-and-Smoke-Detection/runs/detect/train/weights/best.pt"
-    model = YOLO(model_path)
+    ## USING GPU IF AVAILABLE
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+    model_path="runs\\detect\\train3\\weights\\best.pt"
+    model = YOLO(model_path).to(device)
 
-    model_input_size = 608 
+    model_input_size = 640
     left, top, width, height = get_center_screen_coordinates(width=model_input_size, height=model_input_size)
     
     # CAPTURE REGION

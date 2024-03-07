@@ -83,13 +83,45 @@ def detect_fire_and_smoke(model, frame):
     return fire_detected, smoke_detected
 
 
-def main():
-    ## USING GPU IF AVAILABLE
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    print(f"Using device: {device}")
-    model_path="runs\\detect\\train3\\weights\\best.pt"
-    model = YOLO(model_path).to(device)
+def capture_webcam(model):
+    # Initialize the webcam (0 is the default webcam, adjust if necessary)
+    cap = cv2.VideoCapture(0)
 
+    # Check if the webcam is opened correctly
+    if not cap.isOpened():
+        raise IOError("Cannot open webcam")
+
+    try:
+        while True:
+            # Capture frame-by-frame
+            ret, frame = cap.read()
+            # If frame is read correctly, ret is True
+            if not ret:
+                print("Can't receive frame (stream end?). Exiting ...")
+                break
+
+            frame = np.array(frame)
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR) ## CONVERTING TO RGB
+            # frame = letterbox(frame, model_input_size) ## ONLY IF I CHANGE CAPTURE REGION
+
+            is_fire, is_smoke = detect_fire_and_smoke(model, frame)
+            if is_fire:
+                print("Fire detected!")
+            if is_smoke:
+                print("Smoke detected!")
+
+            cv2.imshow('WebCam', cv2.cvtColor(frame, cv2.COLOR_BGR2BGRA)) ## DISPLAY
+
+            # Break the loop when 'q' is pressed
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                break
+    finally:
+        # When everything is done, release the capture
+        cap.release()
+        cv2.destroyAllWindows()
+
+
+def screen_capture(model):
     model_input_size = 640
     left, top, width, height = get_center_screen_coordinates(width=model_input_size, height=model_input_size)
     
@@ -107,7 +139,7 @@ def main():
                 # SCREEN CAPTURE
                 sct_img = sct.grab(mon)
                 frame = np.array(sct_img)
-                frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR) ## CONVERTING TO RGB
+                frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR) ## CONVERTING TO BGR
                 # frame = letterbox(frame, model_input_size) ## ONLY IF I CHANGE CAPTURE REGION
 
                 is_fire, is_smoke = detect_fire_and_smoke(model, frame)
@@ -116,12 +148,28 @@ def main():
                 if is_smoke:
                     print("Smoke detected!")
 
-                cv2.imshow('Screen', cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)) ## DISPLAY
+                cv2.imshow('Screen', cv2.cvtColor(frame, cv2.COLOR_BGR2BGRA)) ## DISPLAY
 
                 if cv2.waitKey(1) & 0xFF == ord('q'):
                     break
         finally:
             cv2.destroyAllWindows()
+
+def main():
+    ## USING GPU IF AVAILABLE
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
+    model_path="runs\\detect\\train3\\weights\\best.pt"
+    model = YOLO(model_path).to(device)
+
+    capture = "webcam"
+
+    if capture=="screen":
+        screen_capture(model)
+    if capture=="webcam":
+        capture_webcam(model)
+
+    
 
 if __name__ == "__main__":
     main()

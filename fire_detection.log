@@ -1,0 +1,136 @@
+2024-04-24 18:06:25,410 - ERROR - Erro: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /fire-alert (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000293C1CC6E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-04-24 18:06:30,937 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-04-24 18:07:14,202 - ERROR - Erro: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /fire-alert (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000172E0D61D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-04-24 18:07:16,768 - ERROR - Erro: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /fire-alert (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000172E0CCB2D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-04-24 18:07:23,867 - ERROR - Erro: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /fire-alert (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000172EC9183D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-04-24 18:07:25,017 - ERROR - Erro: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /fire-alert (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000172F651A3D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-04-24 18:10:26,469 - ERROR - Erro: 'Conv' object has no attribute 'bn'
+2024-04-24 18:10:26,469 - ERROR - Erro: 'Conv' object has no attribute 'bn'
+2024-04-24 18:10:26,469 - ERROR - Erro: 'Conv' object has no attribute 'bn'
+2024-04-24 18:10:31,252 - ERROR - Erro: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /fire-alert (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DA9E9A6CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-04-24 20:39:18,540 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:19,845 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0010228157043457031 segundos
+2024-04-24 20:39:25,179 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:26,157 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:28,632 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:30,781 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-04-24 20:39:30,797 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-04-24 20:39:30,813 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-04-24 20:39:30,813 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-04-24 20:39:45,312 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:50,098 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:54,733 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:39:58,508 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:02,108 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:03,402 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:05,876 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:07,409 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:09,266 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:09,313 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:13,656 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:13,880 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:14,360 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:17,866 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:20,715 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:21,274 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:23,444 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:24,881 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:25,218 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:26,982 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:28,189 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0025124549865722656 segundos
+2024-04-24 20:40:31,972 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:34,576 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:37,211 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:38,802 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:42,043 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:45,004 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:46,113 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.009510517120361328 segundos
+2024-04-24 20:40:46,288 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:48,668 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:52,527 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:53,502 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:56,497 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:56,785 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:40:58,834 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:00,429 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:00,508 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:02,524 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:04,228 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:04,244 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.010010242462158203 segundos
+2024-04-24 20:41:04,389 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:06,196 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:07,919 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 3, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:07,935 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:09,182 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:10,173 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:13,290 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 1, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:13,632 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:14,163 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:16,883 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:17,346 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:20,027 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:20,281 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:23,014 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:24,356 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:27,778 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:31,316 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.009510278701782227 segundos
+2024-04-24 20:41:34,261 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:39,300 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:44,059 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:46,218 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.005011796951293945 segundos
+2024-04-24 20:41:48,392 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:48,568 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:50,313 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:52,836 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:54,788 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:55,700 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:57,457 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:57,744 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:41:59,376 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:01,215 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:01,311 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:03,246 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0035102367401123047 segundos
+2024-04-24 20:42:05,145 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 0, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:06,976 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0010266304016113281 segundos
+2024-04-24 20:42:08,745 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:10,276 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:12,229 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:15,683 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:18,024 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:19,745 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:21,955 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:23,905 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0065114498138427734 segundos
+2024-04-24 20:42:30,588 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:32,013 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:33,513 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0010044574737548828 segundos
+2024-04-24 20:42:35,095 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.001329660415649414 segundos
+2024-04-24 20:42:37,194 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:38,630 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0010013580322265625 segundos
+2024-04-24 20:42:40,318 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:41,829 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:43,765 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:45,222 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:46,629 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:48,158 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0005040168762207031 segundos
+2024-04-24 20:42:49,917 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:51,644 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:53,744 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:57,712 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:42:58,896 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:00,460 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:01,877 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0010001659393310547 segundos
+2024-04-24 20:43:04,336 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:06,172 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:08,635 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:10,749 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:12,650 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:14,517 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:16,435 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:18,323 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:20,253 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:22,154 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:24,133 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:26,023 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0 segundos
+2024-04-24 20:43:28,543 - INFO - Alerta de incêndio enviado com sucesso! Câmera: 2, Tempo decorrido: 0.0010085105895996094 segundos
+2024-04-24 20:43:31,392 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2024-04-24 20:43:31,393 - ERROR - Erro: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

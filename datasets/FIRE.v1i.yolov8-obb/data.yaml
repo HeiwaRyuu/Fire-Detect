@@ -1,0 +1,8 @@
+path: ../datasets/roboflow
+
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: fire - v1 2023-05-30 2-36pm
